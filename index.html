@@ -5,8 +5,105 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href=""></link>
 </head>
 <body>
-    <script src="./script.js"></script>
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="" class="nav-link">asd</a></li>
+                <li class="nav-item"><a href="" class="nav-link">asd</a></li>
+                <li class="nav-item"><a href="" class="nav-link">asd</a></li>
+                <li class="nav-item"><a href="" class="nav-link">asd</a></li>
+                <li class="nav-item"><a href="" class="nav-link">asd</a></li>
+                <li class="nav-item"><a href="" class="nav-link">asd</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="section main-section" id="profile">
+            <img src="" alt="Photo" class="my_photo">
+            <h1 class="section-title name">Viktar Neustupau</h1>
+        </section>
+
+        <section class="section" id="contacts">
+            <h2 class="section-title">Contacts</h2>
+            <ul class="list">
+                <li><span class="span">Discord:</span> forever young#6090</li>
+                <li><span class="span">E-mail:</span> neustupov01@mail.ru</li>
+                <li><span class="span">Phone:</span> +375445838842</li>
+            </ul>
+        </section>
+
+        <section class="section" id="myself">
+            <h2 class="section-title">About myself</h2>
+            <p>
+                I am 21 years old. I am a student. 
+                I’m Physics.engineer, and I found programming interesting.
+            </p>
+        </section>
+
+        <section class="section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul class="list">
+                <li>HTML (basic)</li>
+                <li>CSS (basic)</li>
+                <li>JavaScript (basic)</li>
+                <li>Python (basic)</li>
+                <li>Java (Intermediate)</li>
+            </ul>
+        </section>
+
+        <section class="section" id="code">
+            <h2 class="section-title">Code exaple</h2>
+            <pre class="pre">
+                <code>
+                    def search_iterative(list, item):
+                    low = 0
+                    high = len(list) - 1
+                    while low <= high:
+                        mid = (low + high) // 2
+                        guess = list[mid]
+                        if guess == item:
+                            return mid
+                        if guess > item:
+                            high = mid - 1
+                        else:
+                            low = mid + 1
+                    return None
+                </code>
+            </pre>
+        </section>
+
+        <section class="section education-section" id="education">
+            <h2 class="section-title">Education</h2>
+            <ul class="list">
+                <li><span class="span">University:</span> Belarusian State University(Physics.engineer)</li>
+                <li><span class="span">Courses:</span> 
+                    <ul class="list">
+                        <li><a href="https://www.udemy.com/course/javascript_full/" class="link">JavaScript (in process)</a></li>
+                        <li><a href="https://community-z.com/events/js-stage0-rss-2021q4" class="link">RS Schools Course «JavaScript/Front-end. Stage 0» (in process)</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section class="section last-section" id="language">
+            <h2 class="section-title">Language</h2>
+            <ul class="list">
+                <li><span class="span">English</span> — Intermediate</li>
+                <li><span class="span">Russian</span> — Native</li>
+                <li><span class="span">Chinese</span> — Beginer</li>
+            </ul>
+        </section>       
+    </main>
+    <footer class="footer">
+        <div>© 2023</div>
+        <a href="https://github.com/vityacasf" class="github">Viktor</a>
+        <a href="https://rs.school/js/" class="rss"></a>
+    </footer>
+    </main>
 </body>
 </html>
