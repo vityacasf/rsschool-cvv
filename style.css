@@ -26,6 +26,24 @@ body {
     background-color: rgb(96, 105, 190);
 }
 
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 10%;
+    flex-grow: 1;
+}
+
+.footer {
+    display: flex;
+    padding: 10px 30px;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(75, 75, 75);
+    color: white
+}
+
 .nav {
     height: 100%;
     padding: 0 50px;
@@ -67,4 +85,102 @@ body {
     align-items: center;
     flex-direction: row;
     border-bottom: 15px solid rgb(66, 102, 150); 
+}
+
+.last-section {
+    border: none
+}
+
+.education-section {
+    border: none    
+}
+
+.section-title {
+    font-family: Roboto;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: rgb(44, 44, 44);
+}
+
+.name {
+    display: flex;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.my_photo {
+    height: 240px;
+    width: 240px;
+    padding: 10px;
+    background: rgb(75, 75, 75);
+    border-radius: 50%;
+}
+
+.span {
+    font-weight: 600;
+}
+
+.list {
+    padding-left: 40px;
+}
+
+.link {
+    text-decoration: none;
+    color:rgb(102, 50, 50)    
+}
+
+.link:hover {
+    text-decoration: underline;
+    color:rgb(136, 66, 155);
+}
+
+.link:visited {
+    color:rgb(136, 66, 155);
+}    
+
+.rss {
+    height: 40px;
+    width: 108px;
+    background-image: url(./assets/img/rs_school.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.github {
+    position: relative;
+    top: 20px;
+    text-decoration: none;
+    color: white
+}
+
+.github:hover {
+    text-decoration: underline;
+    color: rgb(167, 145, 145)     
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+
+    .main-section {
+        flex-direction: column;
+        align-items: center
+    }
+
+    .education-section {
+        border-bottom: 1px solid rgb(130, 130, 130);    
+    }
+
+    .nav-list {
+        position: static;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 880px) {
+    .nav-list {
+        font-size: 14px;
+    }
 }
