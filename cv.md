@@ -8,7 +8,7 @@
 
 # About myself
 
-I am 19 y.o. I'm student of BSU, faculty of physics. I found programming interesting.
+I am 21 y.o. I'm student of BSU, faculty of physics. I found programming interesting.
 
 ## Skills 
 
@@ -28,10 +28,10 @@ Nothing yet.
 
 ## Education 
 
-* University: BSU(3rd course) 
+* University: BSU(4th course) 
 * Courses:
     * JavaScript(in process)
-    * RS Schools "JavaScript/Front-end. Stage 1" (in progress)
+    * RS School "JavaScript/Front-end. Stage 0" (in progress)
 
 ## Languages
 
